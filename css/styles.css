@@ -106,6 +106,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -128,6 +129,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .hero__button {
@@ -135,6 +137,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  line-height: 1.5;
   line-height: 1.5;
   letter-spacing: 0.64px;
 
@@ -158,6 +161,7 @@ img {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  line-height: 1.2;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
@@ -203,6 +207,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -219,6 +224,7 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .team__text {
@@ -227,6 +233,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -248,6 +255,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  line-height: 1.5;
   line-height: 1.5;
   letter-spacing: 0.64px;
 
@@ -276,6 +284,7 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .portfolio-projects__text {
@@ -283,6 +292,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
