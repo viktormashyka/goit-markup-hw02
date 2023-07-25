@@ -1,17 +1,7 @@
-:root {
-  --navyblue: #2e2f42;
-  --white: #fff;
-  --slate: #434455;
-  --iris: #4d5ae5;
-  --cloud: #f4f4fd;
-  --cornflower: #e7e9fc;
-  --ocean: #404bbf;
-}
-
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--slate, #434455);
-  background-color: var(--white, #ffffff);
+  color: #434455;
+  background-color: #ffffff;
 }
 
 p,
@@ -30,10 +20,10 @@ ol {
   margin: 0;
 }
 
-a,
+/* a,
 li {
   text-decoration: none;
-}
+} */
 
 button {
   cursor: pointer;
@@ -41,6 +31,16 @@ button {
 
 img {
   /* display: block; */
+}
+
+:root {
+  --navyblue: #2e2f42;
+  --white: #ffffff;
+  --slate: #434455;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
 }
 
 /* Common classes */
@@ -57,7 +57,7 @@ img {
 }
 
 .section {
-  padding: 0px 156px;
+  /* padding: 0px 156px; */
 }
 
 /* Header */
