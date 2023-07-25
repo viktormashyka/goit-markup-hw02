@@ -10,8 +10,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--navyblue);
-  background-color: #fff;
+  color: var(--slate);
+  background-color: #ffffff;
 }
 
 p,
@@ -26,7 +26,7 @@ h6 {
 
 ul,
 ol {
-  padding-left: 0;
+  /* padding-left: 0; */
   margin: 0;
 }
 
@@ -40,7 +40,7 @@ button {
 }
 
 img {
-  display: block;
+  /* display: block; */
 }
 
 /* Common classes */
@@ -66,6 +66,20 @@ img {
 .header__nav {
 }
 .header__logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header__logo-web {
+  color: var(--iris);
+}
+.header__logo-studio {
+  color: var(--navyblue);
 }
 .menu {
 }
@@ -73,15 +87,14 @@ img {
 }
 .menu__link {
   color: var(--navyblue);
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: 24px; 150% */
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .header__address {
+  font-style: normal;
 }
 .header__address__list {
 }
@@ -89,11 +102,10 @@ img {
 }
 .header__address__link {
   color: var(--slate);
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -107,31 +119,28 @@ img {
 .section {
 }
 .hero {
+  background-color: var(--navyblue);
 }
 .hero__head-title {
   color: var(--white);
   text-align: center;
-  /* font-family: Roboto; */
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  /* line-height: 60px; 107.143% */
-  line-height: 1, 07;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .hero__button {
   color: var(--white);
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: 24px; 150% */
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.64px;
 
   border-radius: 4px;
   background: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
 /* Our advantages */
@@ -146,22 +155,18 @@ img {
 }
 .advantages__title {
   color: var(--navyblue);
-  /* font-family: Roboto; */
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: 24px; 120% */
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .advantages__text {
   color: var(--slate);
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 24px; 150% */
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -172,12 +177,10 @@ img {
 .about__head-title {
   color: var(--navyblue);
   text-align: center;
-  /* font-family: Roboto; */
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  /* line-height: 40px; 111.111% */
-  line-height: 1, 11;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -191,16 +194,15 @@ img {
 /* Our Team */
 
 .team {
+  background: var(--cloud);
 }
 .team__head-title {
   color: var(--navyblue);
   text-align: center;
-  /* font-family: Roboto; */
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  /* line-height: 40px; 111.111% */
-  line-height: 1, 11;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -213,23 +215,19 @@ img {
 .team__title {
   color: var(--navyblue);
   text-align: center;
-  /* font-family: Roboto; */
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: 24px; 120% */
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .team__text {
   color: var(--slate);
   text-align: center;
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 24px; 150% */
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -247,12 +245,10 @@ img {
 .portfolio-btn__button {
   color: var(--iris);
   text-align: center;
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: 24px; 150% */
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.64px;
 
   border-radius: 4px;
@@ -276,22 +272,18 @@ img {
 }
 .portfolio-projects__title {
   color: var(--navyblue);
-  /* font-family: Roboto; */
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: 24px; 120% */
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .portfolio-projects__text {
   color: var(--slate);
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 24px; 150% */
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -299,14 +291,25 @@ img {
 .footer {
 }
 .footer__logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer__logo-web {
+  color: var(--iris);
+}
+.footer__logo-studio {
+  color: var(--cloud);
 }
 .footer__text {
   color: var(--cloud);
-  /* font-family: Roboto; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 24px; 150% */
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
