@@ -53,10 +53,6 @@ button {
   color: var(--iris);
 }
 
-/* .header__logo-web {
-  color: var(--iris);
-} */
-
 .header__logo-studio {
   color: var(--navyblue);
 }
@@ -220,6 +216,7 @@ button {
 }
 
 .team__item {
+  background-color: var(--white);
 }
 
 .team__image {
@@ -271,7 +268,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.64px;
 
-  border-radius: 4px;
+  /* border-radius: 4px; */
   border: 1px solid var(--cornflower);
   background: var(--cloud);
 }
@@ -315,10 +312,11 @@ button {
 
 /* Footer */
 .footer {
+  background-color: var(--navyblue);
 }
 
 .footer__logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -327,10 +325,6 @@ button {
   text-transform: uppercase;
   color: var(--iris);
 }
-
-/* .footer__logo-web {
-  color: var(--iris);
-} */
 
 .footer__logo-studio {
   color: var(--cloud);
