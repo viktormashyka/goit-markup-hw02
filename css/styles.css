@@ -10,8 +10,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--slate);
-  background-color: #ffffff;
+  color: var(--slate, #434455);
+  background-color: var(--white, #ffffff);
 }
 
 p,
@@ -55,6 +55,7 @@ img {
 
 .main {
 }
+
 .section {
   padding: 0px 156px;
 }
@@ -63,51 +64,65 @@ img {
 
 .header {
 }
+
 .header__nav {
 }
+
 .header__logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.header__logo-web {
   color: var(--iris);
 }
+
+/* .header__logo-web {
+  color: var(--iris);
+} */
+
 .header__logo-studio {
   color: var(--navyblue);
 }
+
 .menu {
 }
+
 .menu__item {
 }
+
 .menu__link {
   color: var(--navyblue);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
+.menu__link:hover,
+.menu__link:focus {
+  color: var(--ocean);
+}
+
 .header__address {
   font-style: normal;
 }
+
 .header__address__list {
 }
+
 .header__address__item {
 }
+
 .header__address__link {
   color: var(--slate);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .header__address__link:hover,
@@ -119,9 +134,11 @@ img {
 
 .section {
 }
+
 .hero {
   background-color: var(--navyblue);
 }
+
 .hero__head-title {
   color: var(--white);
   text-align: center;
@@ -129,8 +146,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 .hero__button {
   color: var(--white);
@@ -138,24 +154,32 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 
-  border-radius: 4px;
-  background: var(--iris);
+  /* border-radius: 4px; */
+  background-color: var(--iris);
   /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  background-color: var(--ocean);
 }
 
 /* Our advantages */
 
 .advantages {
 }
+
 .advantages__head-title {
 }
+
 .advantages__list {
 }
+
 .advantages__item {
 }
+
 .advantages__title {
   color: var(--navyblue);
   font-size: 20px;
@@ -165,6 +189,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+
 .advantages__text {
   color: var(--slate);
   font-size: 16px;
@@ -178,6 +203,7 @@ img {
 
 .about {
 }
+
 .about__head-title {
   color: var(--navyblue);
   text-align: center;
@@ -188,10 +214,13 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
 .about__list {
 }
+
 .about__item {
 }
+
 .about__image {
 }
 
@@ -200,6 +229,7 @@ img {
 .team {
   background: var(--cloud);
 }
+
 .team__head-title {
   color: var(--navyblue);
   text-align: center;
@@ -211,12 +241,16 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
 .team__list {
 }
+
 .team__item {
 }
+
 .team__image {
 }
+
 .team__title {
   color: var(--navyblue);
   text-align: center;
@@ -227,6 +261,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+
 .team__text {
   color: var(--slate);
   text-align: center;
@@ -242,10 +277,13 @@ img {
 
 .portfolio {
 }
+
 .portfolio__head-title {
 }
+
 .portfolio-btn__list {
 }
+
 .portfolio-btn__item {
 }
 
@@ -271,13 +309,16 @@ img {
 
 .portfolio-projects {
 }
+
 .portfolio-projects__item {
 }
+
 .portfolio-projects__link {
 }
 
 .portfolio-projects__image {
 }
+
 .portfolio-projects__title {
   color: var(--navyblue);
   font-size: 20px;
@@ -287,6 +328,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+
 .portfolio-projects__text {
   color: var(--slate);
   font-size: 16px;
@@ -300,6 +342,7 @@ img {
 /* Footer */
 .footer {
 }
+
 .footer__logo {
   font-family: Raleway;
   font-size: 18px;
@@ -308,13 +351,17 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.footer__logo-web {
   color: var(--iris);
 }
+
+/* .footer__logo-web {
+  color: var(--iris);
+} */
+
 .footer__logo-studio {
   color: var(--cloud);
 }
+
 .footer__text {
   color: var(--cloud);
   font-size: 16px;
