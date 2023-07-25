@@ -12,8 +12,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
   background-color: var(--white);
-  font-size: 16px;
-  letter-spacing: 0.02em;
 }
 
 button {
@@ -125,10 +123,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-  /* border-radius: 4px; */
   background-color: var(--iris);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
 .hero__button:hover,
@@ -155,7 +150,6 @@ button {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.2;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
@@ -207,7 +201,6 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -229,7 +222,6 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
@@ -239,7 +231,6 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -265,14 +256,14 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  line-height: 1.5;
   letter-spacing: 0.64px;
 
-  /* border-radius: 4px; */
   border: 1px solid var(--cornflower);
   background: var(--cloud);
 }
 
+.portfolio-btn__button:hover,
+.portfolio-btn__button:focus,
 .portfolio-btn__button:active {
   color: var(--white);
   background: var(--ocean);
@@ -296,8 +287,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-projects__text {
